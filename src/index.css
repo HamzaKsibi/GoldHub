@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: #031225; /* Premium Nachtblau */
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  text-align: center;
+}
+
+.language-picker button {
+  margin: 8px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: linear-gradient(145deg, #0057c2, #0092ff);
+  color: gold;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: 0.2s;
+}
+
+.language-picker button:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
