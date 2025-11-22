@@ -30,3 +30,13 @@ body {
   opacity: 0.8;
   transform: scale(1.05);
 }
+body {
+  background: #0d1224;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+button {
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
